@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "jsx": "preserve",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": true,
+        "sourceMap": true,
+        "strict": true,
+        "outDir": "./build/",
+        "noImplicitAny": true,
+        "target": "es6",
+        "baseUrl": ".",
+        "paths": {
+            "__components/*": ["./src/components/*"],
+            "__scss/*": ["./src/scss/*"],
+            "__assets/*": ["./src/assets/*"],
+        },
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable",
+            "scripthost"
+        ]
+    },
+    "include": [
+        "src/**/*.js",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "src/typings/**/*.d.ts",
+        "node_modules/@types",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
