@@ -55,7 +55,7 @@ module.exports = {
                 loader: 'vue-loader'
             },
             {
-                test: /\.ts$/,
+                test: /\.(ts|js)$/,
                 exclude: /node_modules/,
                 use: [
                     {

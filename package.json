@@ -13,6 +13,7 @@
     "lint-fix": "eslint ./src/**/*.vue --fix && eslint ./src/**/*.ts --fix & stylelint ./src/**/*.scss --fix"
   },
   "dependencies": {
+    "test-module": "file:./test-module",
     "vue": "3.2.40"
   },
   "devDependencies": {
