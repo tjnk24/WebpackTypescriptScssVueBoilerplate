@@ -18,8 +18,8 @@ module.exports = {
     devServer: {
         static: path.resolve(__dirname, 'src'),
         liveReload: false,
-        open: true,
-        port: 8080,
+        // open: true,
+        port: 8081,
         hot: true,
         historyApiFallback: true,
         client: {

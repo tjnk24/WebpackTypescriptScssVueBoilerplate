@@ -1,12 +1,10 @@
 import {defineComponent} from 'vue';
 
-import Editor from 'test-module';
+import GonkongEditor from '@zoibana/gonkong-editor';
 
-console.log('Editor', Editor);
+console.log('GonkongEditor', GonkongEditor);
 
 export default defineComponent({
     name: 'App',
-    components: {
-        Editor,
-    },
+    components: {GonkongEditor},
 });

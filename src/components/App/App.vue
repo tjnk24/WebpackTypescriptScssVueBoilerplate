@@ -1,5 +1,8 @@
 <template>
-  <HelloWorld />
+  <GonkongEditor
+    token="token"
+    csrf="csrf"
+  />
 </template>
 
 <script lang="ts" src="./script.ts" />

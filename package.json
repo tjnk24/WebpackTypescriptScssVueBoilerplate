@@ -13,7 +13,9 @@
     "lint-fix": "eslint ./src/**/*.vue --fix && eslint ./src/**/*.ts --fix & stylelint ./src/**/*.scss --fix"
   },
   "dependencies": {
-    "test-module": "file:./test-module",
+    "@kyvg/vue3-notification": "^2.7.0",
+    "@zoibana/gonkong-editor": "0.2.14",
+    "axios": "^1.2.1",
     "vue": "3.2.40"
   },
   "devDependencies": {
